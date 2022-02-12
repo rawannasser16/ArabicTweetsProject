@@ -77,7 +77,7 @@ def features():
     print(feature_score)
 
 #Our main..
-print("code is running..:")
+print("Welcome..:")
 for i in range(2, Tweets.max_row + 1):
     #print("\n") // if u used the upper print use this one too, it makes lines appear below each other instead of next to each other
     for j in range(2, Tweets.max_column + 1):
