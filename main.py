@@ -76,6 +76,7 @@ def features():
     voc = vectorizer.vocabulary_
     print(voc)
     print(feature_score)
+    print("HELLOOOOO")
 
 #Our main..
 print("Welcome..:")
