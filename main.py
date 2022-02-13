@@ -66,6 +66,7 @@ def classification(model):
     print(y_predict)
     f_measure = f1_score(y, y_predict)
     print("f-measure : ", f_measure)
+    print("Hello there's new Commit")
     print("--------------------------------------------------------------------------------------")
 
 def features():
