@@ -87,6 +87,10 @@ for i in range(2, Tweets.max_row + 1):
         Filtered_tweets.cell(row=i, column=j).value = final_value
 file2.save('filtered tweets.xlsx')
 
+////////
+for i in range(0,10)
+  print(i)
+
 print("logistic-regission:\n")
 logreg = LogisticRegression()
 classification(logreg)
