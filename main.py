@@ -79,7 +79,7 @@ def features():
     print(feature_score)
 
 #Our main..
-print("Welcome..:")
+
 for i in range(2, Tweets.max_row + 1):
     #print("\n") // if u used the upper print use this one too, it makes lines appear below each other instead of next to each other
     for j in range(2, Tweets.max_column + 1):
@@ -88,6 +88,10 @@ for i in range(2, Tweets.max_row + 1):
         final_value = remove_stop_words(returned_value)
         Filtered_tweets.cell(row=i, column=j).value = final_value
 file2.save('filtered tweets.xlsx')
+
+////////
+for i in range(0,10)
+  print(i)
 
 print("logistic-regission:\n")
 logreg = LogisticRegression()
